@@ -1,0 +1,100 @@
+<html>
+    <head><title>Header_use</title></head>
+    <body>
+
+        <style>
+
+            * {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+            }
+
+            #nav {
+                background-color: black;
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #header {
+                background-color: cadetblue;
+                height: 100vh;
+            }
+
+            h3 {
+                margin-top: 20px;
+            }
+
+            ul {
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+
+            #logo {
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            img {
+                 padding: 70px;
+                 margin-top: 10px;
+            }
+
+            .para {
+                text-align: center;
+                width: 700;
+                height: 15vh;
+                padding: 10px;
+                font-size: 27px;
+                margin-left: 20px;
+                margin-top: -50px;
+            }
+
+            #bot_hero {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 27px;
+                margin-top: 50px;
+            }
+
+
+        </style>
+    <div>
+
+        <div id="nav">
+            <h2>SOCKETS</h2>
+        </div>
+
+        <div id="header">
+            <div id="logo">
+            <p class="para">A socket is one endpoint of a two way communication
+                 link between two programs running on the network. 
+                 The socket mechanism provides a means of inter-process
+                  communication (IPC) by establishing named contact points
+                   between which the communication take place.</p>
+
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200509144309/1406-4.png"
+            alt="image">
+            </div>
+            
+            <div id="bot_hero">
+            <p>For more :</p>
+            <a href="https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm">
+                Sockets.Tutorialpiont</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    </body>
+</html>
